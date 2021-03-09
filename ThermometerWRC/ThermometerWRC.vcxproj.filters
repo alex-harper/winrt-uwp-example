@@ -11,11 +11,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="Class.cpp" />
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+    <ClCompile Include="SkottiePlayer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="SkottiePlayer.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ThermometerWRC.def" />
@@ -29,5 +30,6 @@
   </ItemGroup>
   <ItemGroup>
     <Midl Include="Thermometer.idl" />
+    <Midl Include="SkottiePlayer.idl" />
   </ItemGroup>
 </Project>

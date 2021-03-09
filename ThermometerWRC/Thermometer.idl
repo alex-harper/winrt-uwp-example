@@ -4,7 +4,9 @@ namespace ThermometerWRC
     runtimeclass Thermometer
     {
         Thermometer(Single startPoint);
+
         void AdjustTemperature(Single deltaFahrenheit);
+
         event Windows.Foundation.EventHandler<Single> TemperatureIsBelowFreezing;
     }
 }

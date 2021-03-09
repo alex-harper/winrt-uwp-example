@@ -1,0 +1,9 @@
+namespace ThermometerWRC
+{
+    [default_interface]
+    runtimeclass SkottiePlayer : Windows.UI.Xaml.Controls.SwapChainPanel
+    {
+        SkottiePlayer();
+        String LottiePath;
+    }
+}
